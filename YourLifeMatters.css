@@ -1,0 +1,39 @@
+body {
+
+    background-color: rgb(255, 146, 113);
+    text-align: center;
+    
+
+
+}
+
+#TitleLogo { 
+    width: 700px;
+    height: 180px;
+    margin-top: 2.5cm;
+    border: 5px rgb(86, 130, 184);
+    border-radius: 5px;
+
+
+
+}
+
+#LogoSub {
+    color: rgb(86, 130, 184);
+    font-size: 200%;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#WhyBox {
+    color: rgb(86, 130, 184);
+    text-align:left;
+    margin-left: 20px;
+    width: 350px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500 
+
+}
+
+
