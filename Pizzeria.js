@@ -1,6 +1,6 @@
 function Ordinarepizza() {
     x = prompt('Che pizza vuoi?');
-    x.replace('<',' ');
+    x = x.replace('<',' ');
     document.getElementById('pizzascelta').innerHTML = 'La pizza scelta è: ' + x;
     
 
