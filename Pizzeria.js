@@ -6,4 +6,4 @@ function Ordinarepizza() {
 
 }
 
-document.getElementById('Ordinare').addEventListener("click", Ordinarepizza);
+document.getElementById('ordinare').addEventListener("click", Ordinarepizza);
