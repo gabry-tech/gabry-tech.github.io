@@ -18,8 +18,6 @@ function pagamento() {
 
 }
 
-
-
-
 document.getElementById('ordinare').addEventListener("click", ordinarepizza);
+
 
