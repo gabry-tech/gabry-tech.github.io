@@ -2,7 +2,7 @@ function ordinarepizza() {
     pizza = prompt('Che pizza vuoi?');
     pizza = pizza.replace('<',' ');
     document.getElementById('pizzascelta').innerHTML = 'La pizza scelta è: <b>' + pizza + '</b>';
-    x= Math.floor(Math.random()*20);
+    x= Math.floor(Math.random()*10+5);
     document.getElementById('conto').innerHTML = 'Ok, fanno <b>' + x + ' euro</b>';
     document.getElementById('boxpagare').innerHTML = "<button id='pagare'>PAGA ORA</button>";
     document.getElementById('pagare').addEventListener("click", pagamento);
