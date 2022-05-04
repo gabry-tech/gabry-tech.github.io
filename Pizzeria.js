@@ -128,9 +128,26 @@ function mostrarisultati(){
             boxrisposte[numerodomanda].style.color = 'red';
           }
         });
+        
+        if (numcorrette > 3 ) {
+            pizzaricevuta = "Sei una persona davvero colta! <br>Oh no! la pizza si è bruciata! Ops...<br><br>Torna a trovarci!<br>"
+        }
+
+        else {
+            pizzaricevuta = "Mi spiace, la nostra pizzeria acccetta solo clienti con certe conoscenze...<br>Torna a trovarci!<br>"
+        }
       
-        document.getElementById('risultati').innerHTML = `${numcorrette} su ${domande.length}`;
-      }
+
+
+        document.getElementById('risultati').innerHTML = `${numcorrette} su ${domande.length}<br>${pizzaricevuta}`;
+        
+
+
+
+          
+    
+    }
+
 
 
 
