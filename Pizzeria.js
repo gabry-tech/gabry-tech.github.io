@@ -62,7 +62,7 @@ function quiz() {
         },
     
         {
-            domanda: "Quale di queste caratteristiche NON ha l'aoristo asigmatico?",
+            domanda: "Quale di queste caratteristiche NON ha l'aoristo secondo?",
     
             risposte: {
     
